@@ -1,14 +1,14 @@
 <template>
   <Nav />
   <div class="flex flex-col justify-end items-center max-w-7xl mx-auto bg-stone-300 h-[100px] md:h-[200px] mb-10">
-  <p class="text-3xl md:text-6xl font-bold uppercase">{{ data.nombre }}</p>
+  <p class="text-3xl md:text-6xl font-bold uppercase pb-5">{{ data.nombre }}</p>
     </div>
     <div class="bg-black w-[5px] h-[88px] flex flex-row mb-10 mx-auto"></div>
 
-    <div class=" flex flex-col max-w-7xl md:mx-auto md:grid grid-cols-2 pb-10 p-5">
+    <div class=" flex flex-col max-w-7xl md:mx-auto md:grid grid-cols-2 pb-10 p-5 gap-5">
 
       <div class="col-span-1 flex flex-col items-center justify-center">
-        <img :src="data.imagen" alt="">
+        <img :src="data.imagen" alt="" class="h-full">
 
       </div>
 
